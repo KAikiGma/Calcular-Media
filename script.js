@@ -1,8 +1,8 @@
 function calcular(){
-    var b1 = Number(document.getElementById("b1").value)
-    var b2 = Number(document.getElementById("b2").value)
-    var b3 = Number(document.getElementById("b3").value)
-    var b4 = Number(document.getElementById("b4").value)
-    var media = (b1 + b2 + b3 + b4) / 4
+    var n1 = Number(document.getElementById("n1").value)
+    var n2 = Number(document.getElementById("n2").value)
+    var n3 = Number(document.getElementById("n3").value)
+    var n4 = Number(document.getElementById("n4").value)
+    var media = (n1 + n2 + n3 + n4) / 4
     document.getElementById('resultado').innerHTML = `<p>Sua média é ${media}</p>`
   }
